@@ -41,6 +41,7 @@
 
   {%- render 'font-face' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'main.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
 
   <script>
