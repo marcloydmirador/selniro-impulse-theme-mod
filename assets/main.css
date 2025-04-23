@@ -1,4 +1,4 @@
-/* ellethelabel-styles.css */
+/* main.css */
 
 /* Define CSS variables globally */
 :root {
@@ -230,3 +230,19 @@ h1.h2.product-single__title {
     letter-spacing: 0;
 }
 
+footer p, .footer__title, .site-footer__linklist a, .site-footer a, .footer__newsletter *, .footer__newsletter-input::placeholder {
+    color: #111 !important;
+    letter-spacing: 0;
+}
+
+.footer__title {font-weight: bold}
+
+.footer__newsletter-input{border-bottom-color: #111;}
+
+.site-footer a[href*=poweredby] {display:none}
+
+.footer__newsletter-input--active+.footer__newsletter-btn .footer__newsletter-btn-label {
+    background: #000;
+    color: #fff !important;
+    padding: 9px;
+}
