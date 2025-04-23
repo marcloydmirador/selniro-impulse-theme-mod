@@ -196,3 +196,37 @@ h1.h2.product-single__title {
 .product-block.product-block--price > * {
     display: inline;
 }
+
+.variant-input[data-index=option2] > label {
+    border-color: #CFCFCF;
+    border-radius: 2px;
+    text-align: center;
+    color: #6A6A6A;
+    background-color: #fff;
+    text-decoration-color: #6A6A6A;
+    text-transform: none;
+    font-size: 13px;
+    font-weight: inherit;
+    padding: 9px 10px;
+}
+
+.variant-input-wrap .variant-input[data-index=option2]:hover > label {
+    border-color: #6A6A6A !important;
+}
+
+.variant-input[data-index=option2] input[type=radio]:checked+label {
+    color: #fff;
+    background-color: #292929;
+    border-color: #292929;
+    text-decoration-color: #fff;
+    text-transform: none;
+    font-weight: inherit;
+    border-bottom: 0px solid #000;
+    padding: 9px 10px;
+}
+
+.label, label:not(.variant__button-label):not(.text-label) {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
