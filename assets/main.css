@@ -1,0 +1,22 @@
+h1.h2.product-single__title {
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 1.6;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.product-single__vendor {display:none}
+
+.product__price {
+    color: #d52222;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.product-block.product-block--header {
+    margin-bottom: 13px;
+}
+
+.product-block.product-block--price > * {
+    display: inline;
+}
